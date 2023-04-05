@@ -28,7 +28,6 @@ class ImageDataset_seg(Dataset):
                  mask_json_path,
                  transforms=None):
         """
-        ##TODO: Add support for colorization dataset
         
         Args:
             input_dir (str): Path to either colorization or segmentation directory
@@ -114,7 +113,7 @@ class ImageDataset_cor(Dataset):
                  mask_json_path,
                  transforms=None):
         """
-        ##TODO: Add support for colorization dataset
+        
         
         Args:
             input_dir (str): Path to either colorization or segmentation directory
